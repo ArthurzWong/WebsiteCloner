@@ -13,8 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  title: "WebsiteCloner — Clone any website into a Next.js codebase",
+  description:
+    "Open-source AI cloning pipeline: paste a URL, run one command, and get a clean Next.js 16 + Tailwind v4 rebuild — components, assets and pixel-aware QA included.",
+  keywords: [
+    "website cloner",
+    "clone website",
+    "nextjs",
+    "tailwind css",
+    "ai agent",
+    "claude code",
+  ],
+  openGraph: {
+    title: "WebsiteCloner — Clone any website into a Next.js codebase",
+    description:
+      "Paste a URL, run one command, get production-ready Next.js code.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
